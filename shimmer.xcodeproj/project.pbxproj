@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A26DD372B9AB31500CE395F /* icon4.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A26DD362B9AB31500CE395F /* icon4.png */; };
+		0A621CCB2B8593450034C8A6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A621CCA2B8593450034C8A6 /* AppDelegate.m */; };
+		0A621CD62B8593470034C8A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A621CD52B8593470034C8A6 /* Assets.xcassets */; };
+		0A621CD92B8593470034C8A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A621CD72B8593470034C8A6 /* LaunchScreen.storyboard */; };
+		0A621CDC2B8593470034C8A6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A621CDB2B8593470034C8A6 /* main.m */; };
+		0A621CE42B85A27D0034C8A6 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A621CE32B85A27D0034C8A6 /* MainViewController.m */; };
+		0A621CE72B85A8410034C8A6 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A621CE62B85A8410034C8A6 /* SecondViewController.m */; };
+		0A621CFB2B96DF520034C8A6 /* aa.webp in Resources */ = {isa = PBXBuildFile; fileRef = 0A621CF82B96DF520034C8A6 /* aa.webp */; };
+		0A621CFC2B96DF520034C8A6 /* bb.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0A621CF92B96DF520034C8A6 /* bb.jpeg */; };
+		0A621CFD2B96DF520034C8A6 /* cc.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0A621CFA2B96DF520034C8A6 /* cc.gif */; };
+		0AB091F92B9B578C00624DFA /* NodesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AB091F82B9B578C00624DFA /* NodesViewController.m */; };
+		0AB091FB2B9C06D300624DFA /* itangram.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AB091FA2B9C06D300624DFA /* itangram.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0A26DD362B9AB31500CE395F /* icon4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon4.png; sourceTree = "<group>"; };
+		0A621CC62B8593450034C8A6 /* shimmer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = shimmer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A621CC92B8593450034C8A6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0A621CCA2B8593450034C8A6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0A621CD52B8593470034C8A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0A621CD82B8593470034C8A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0A621CDA2B8593470034C8A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A621CDB2B8593470034C8A6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0A621CE22B85A27D0034C8A6 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		0A621CE32B85A27D0034C8A6 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		0A621CE52B85A8410034C8A6 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		0A621CE62B85A8410034C8A6 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		0A621CF82B96DF520034C8A6 /* aa.webp */ = {isa = PBXFileReference; lastKnownFileType = file; name = aa.webp; path = shimmer/Image/aa.webp; sourceTree = SOURCE_ROOT; };
+		0A621CF92B96DF520034C8A6 /* bb.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = bb.jpeg; path = shimmer/Image/bb.jpeg; sourceTree = SOURCE_ROOT; };
+		0A621CFA2B96DF520034C8A6 /* cc.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = cc.gif; path = shimmer/Image/cc.gif; sourceTree = SOURCE_ROOT; };
+		0AB091F72B9B578C00624DFA /* NodesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NodesViewController.h; sourceTree = "<group>"; };
+		0AB091F82B9B578C00624DFA /* NodesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NodesViewController.m; sourceTree = "<group>"; };
+		0AB091FA2B9C06D300624DFA /* itangram.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = itangram.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A621CC32B8593450034C8A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A621CBD2B8593450034C8A6 = {
+			isa = PBXGroup;
+			children = (
+				0A621CC82B8593450034C8A6 /* shimmer */,
+				0A621CC72B8593450034C8A6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0A621CC72B8593450034C8A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A621CC62B8593450034C8A6 /* shimmer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0A621CC82B8593450034C8A6 /* shimmer */ = {
+			isa = PBXGroup;
+			children = (
+				0AB091F62B9B56A300624DFA /* view */,
+				0A621CFE2B96DF670034C8A6 /* Image */,
+				0A621CC92B8593450034C8A6 /* AppDelegate.h */,
+				0A621CCA2B8593450034C8A6 /* AppDelegate.m */,
+				0A621CD52B8593470034C8A6 /* Assets.xcassets */,
+				0A621CD72B8593470034C8A6 /* LaunchScreen.storyboard */,
+				0A621CDA2B8593470034C8A6 /* Info.plist */,
+				0A621CDB2B8593470034C8A6 /* main.m */,
+			);
+			path = shimmer;
+			sourceTree = "<group>";
+		};
+		0A621CFE2B96DF670034C8A6 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				0AB091FA2B9C06D300624DFA /* itangram.png */,
+				0A26DD362B9AB31500CE395F /* icon4.png */,
+				0A621CF82B96DF520034C8A6 /* aa.webp */,
+				0A621CF92B96DF520034C8A6 /* bb.jpeg */,
+				0A621CFA2B96DF520034C8A6 /* cc.gif */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		0AB091F62B9B56A300624DFA /* view */ = {
+			isa = PBXGroup;
+			children = (
+				0AB091F72B9B578C00624DFA /* NodesViewController.h */,
+				0AB091F82B9B578C00624DFA /* NodesViewController.m */,
+				0A621CE52B85A8410034C8A6 /* SecondViewController.h */,
+				0A621CE62B85A8410034C8A6 /* SecondViewController.m */,
+				0A621CE22B85A27D0034C8A6 /* MainViewController.h */,
+				0A621CE32B85A27D0034C8A6 /* MainViewController.m */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0A621CC52B8593450034C8A6 /* shimmer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A621CDF2B8593470034C8A6 /* Build configuration list for PBXNativeTarget "shimmer" */;
+			buildPhases = (
+				0A621CC22B8593450034C8A6 /* Sources */,
+				0A621CC32B8593450034C8A6 /* Frameworks */,
+				0A621CC42B8593450034C8A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = shimmer;
+			productName = shimmer;
+			productReference = 0A621CC62B8593450034C8A6 /* shimmer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0A621CBE2B8593450034C8A6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					0A621CC52B8593450034C8A6 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 0A621CC12B8593450034C8A6 /* Build configuration list for PBXProject "shimmer" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0A621CBD2B8593450034C8A6;
+			productRefGroup = 0A621CC72B8593450034C8A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0A621CC52B8593450034C8A6 /* shimmer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0A621CC42B8593450034C8A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A621CFD2B96DF520034C8A6 /* cc.gif in Resources */,
+				0A621CFB2B96DF520034C8A6 /* aa.webp in Resources */,
+				0A621CD92B8593470034C8A6 /* LaunchScreen.storyboard in Resources */,
+				0AB091FB2B9C06D300624DFA /* itangram.png in Resources */,
+				0A621CD62B8593470034C8A6 /* Assets.xcassets in Resources */,
+				0A621CFC2B96DF520034C8A6 /* bb.jpeg in Resources */,
+				0A26DD372B9AB31500CE395F /* icon4.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A621CC22B8593450034C8A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A621CE72B85A8410034C8A6 /* SecondViewController.m in Sources */,
+				0A621CCB2B8593450034C8A6 /* AppDelegate.m in Sources */,
+				0A621CDC2B8593470034C8A6 /* main.m in Sources */,
+				0A621CE42B85A27D0034C8A6 /* MainViewController.m in Sources */,
+				0AB091F92B9B578C00624DFA /* NodesViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0A621CD72B8593470034C8A6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A621CD82B8593470034C8A6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0A621CDD2B8593470034C8A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0A621CDE2B8593470034C8A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0A621CE02B8593470034C8A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZV97B8PCR8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = shimmer/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = shimmer;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UIRequiresFullScreen = NO;
+				INFOPLIST_KEY_UIStatusBarHidden = NO;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = circle.shimmer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0A621CE12B8593470034C8A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZV97B8PCR8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = shimmer/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = shimmer;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UIRequiresFullScreen = NO;
+				INFOPLIST_KEY_UIStatusBarHidden = NO;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = circle.shimmer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A621CC12B8593450034C8A6 /* Build configuration list for PBXProject "shimmer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A621CDD2B8593470034C8A6 /* Debug */,
+				0A621CDE2B8593470034C8A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A621CDF2B8593470034C8A6 /* Build configuration list for PBXNativeTarget "shimmer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A621CE02B8593470034C8A6 /* Debug */,
+				0A621CE12B8593470034C8A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0A621CBE2B8593450034C8A6 /* Project object */;
+}
