@@ -1,0 +1,6 @@
+framework module libuv {
+  umbrella header "libuv.h"
+  export *
+
+  module * { export * }
+}
