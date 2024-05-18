@@ -69,7 +69,7 @@
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     //定义重用标示符
-    static NSString* cellId = @"CELL";
+    static NSString* cellId = @"images/CELL";
     //每次需要使用单元格的是，先根据重用标识符从重用队列中获取单元格，如果队列中没有，再进行初始化新的单元格
     //每次都会先创建一屏幕的cell，当有cell出屏幕，就会根据重用标识符添加到对应的重用队列中，当屏幕外的cell要进入屏幕，先从队列中获取，如果没有，则初始化cell
     //当重用cell时，需要对上面的控件程序赋值
@@ -90,7 +90,7 @@
     //辅助视图的样式home
     cell.accessoryType = (tcell.checked)? UITableViewCellAccessoryCheckmark : UITableViewCellAccessoryNone;
     //设置左侧图片
-    cell.imageView.image = [UIImage imageNamed:@"icon4.png"] ;
+    cell.imageView.image = [UIImage imageNamed:@"images/icon4.png"] ;
     //标题视图
     //cell.detailTextLabel.text = [NSString stringWithFormat:@"第%ld个cell，%ld个section",indexPath.row,indexPath.section];
     cell.detailTextLabel.text = [NSString stringWithFormat:@"第%ld个cell，%ld个section %s",indexPath.row,indexPath.section, tcell.city];
@@ -98,6 +98,8 @@
     //cell.textLabel.text = _allDataDictionary[indexPath.row];
     cell.textLabel.text = [[NSString alloc] initWithUTF8String:tcell.country];
     //为相应位置返回定制好的单元格
+    
+    cell.backgroundColor = UIColor.redColor;
     return cell;
 }
 
@@ -106,6 +108,7 @@
 - (void) pressLeft{
     NSLog(@"left down");
     [self.navigationController popToRootViewControllerAnimated:YES];
+    self.navigationController.navigationBarHidden = YES;
 }
 
 //点击添加触发的方法
@@ -134,8 +137,6 @@
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     NSLog([NSString stringWithFormat:@"第%ld个cell",indexPath.row]);
-    
-    
     //cell.accessoryType = (tcell.checked)? UITableViewCellAccessoryCheckmark : UITableViewCellAccessoryNone;
     
 }

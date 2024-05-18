@@ -1,15 +1,15 @@
 //
 //  AppDelegate.h
-//  shimmer
+//  CircleVPN
 //
-//  Created by kevin on 21/2/24.
+//  Created by kevin on 10/11/23.
 //
 
 #import <UIKit/UIKit.h>
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property(strong,nonatomic) UIWindow *window;
+@property (strong, nonatomic) UIWindow *window;
 
 @end
+
 
